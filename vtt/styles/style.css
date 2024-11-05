@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100vw;
+    height: 6vh;
+    background-color: rgb(73, 121, 255);
+}
+#logo {
+    font-size: 15pt;
+    text-align: center;
+    color: #ffffff;
+}
+.navbar {
+    padding: 5px;
+    gap: 40pt;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+.navbar li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+main {
+    background-image: url(assets/grid.avif);
+    height: 90vh;
+}
+main .map img{
+    padding: 50pt;
+    width: 60%;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+footer {
+    width: 100vw;
+    height: 4vh;
+    background-color: rgb(73, 121, 255);
+}
+.rodape {
+    padding: 6px;
+    color: #ffffff;
+    gap: 20pt;
+    justify-content: center;
+    display: flex;
+}
+.rodape p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.rodape p a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
